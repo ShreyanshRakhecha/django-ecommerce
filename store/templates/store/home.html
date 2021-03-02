@@ -1,0 +1,26 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="main">
+      <div class="main-l">
+        <p class="hd">Welclome To</p>
+        <div class="hd2">Quick Deal</div>
+        <div class="content">
+            <p>Shop latest trends from the top Brands and get best deals!!</p>
+            <br><br>
+        </div>
+        <div class="btns">
+          <a href="{% url 'store' %}">Start Shopping<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-r">
+      <div class="r-t">
+        <img src="{% static 'images\home.png' %}">
+      </div>
+    </div><br>
+
+{% endblock content %}
