@@ -1,0 +1,293 @@
+body{
+	background-color: hsl(0, 0%, 98%);
+}
+h1,h2,h3,h4,h5,h6{
+	color:hsl(0, 0%, 30%);
+}
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.thumbnail{
+	width: 100%;
+	height: 200px;
+	-webkit-box-shadow:-1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+}
+
+.product{
+	border-radius: 0 0 4px 4px;
+}
+
+.bg-dark{
+	background-color: #292342;
+}
+
+#cart-icon{
+	width:25px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#cart-total{
+	display: block;
+	text-align: center;
+	color:#fff;
+	background-color: transparent;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	font-size: 14px;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 10px;
+}
+
+.btn{
+	border-radius: 10px;
+}
+.form-button .btn-block
+{
+    background:  #292342
+}
+
+.row-image{
+	width: 100px;
+}
+
+.form-field{
+	width:250px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.cart-row{
+	display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+
+}
+
+.quantity{
+	display: inline-block;
+	font-weight: 700;
+	padding-right:10px;
+	
+
+}
+
+.chg-quantity{
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	margin-top: 5px;
+	transition:.1s;
+}
+
+.chg-quantity:hover{
+	opacity: .6;
+}
+
+
+.hidden{
+	display: none!important;
+}
+
+footer
+{
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    top: 100px;
+
+}
+
+.icon
+{
+    position: absolute;
+    margin: 30px;
+    display: flex;
+    margin-left: 38%;
+}
+.icon p
+{
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.icon a i
+{
+    margin: 20px;
+
+}
+.icon a i .fab
+{
+    font-size: 30px;
+    line-height: 40px;
+    transition: .6s;
+    color: black;
+}
+.fa-facebook
+{
+    font-size: 30px;
+    color: 3b5999;
+}
+.fa-instagram
+{
+    font-size: 30px;
+    color: #e4405f;
+}
+.fa-twitter
+{
+    font-size: 30px;
+    color: #55acee;
+}
+.fa-linkedin
+{
+    font-size: 30px;
+    color: #0077B5;
+}
+.icon a
+{
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5) ;
+}
+
+.icon a:hover
+{
+    transform: translate(0,-15px);
+}
+
+.logo
+{
+    height: 50px;
+    margin: 0px;
+    width: 200px;
+}
+
+.slider
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.slider img
+{
+    width: 600px;
+    padding: 0 10px;
+    height: 600px;
+}
+
+.carousel
+{
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicator
+{
+    z-index: 1 !important;
+}
+
+@media only screen and (max-width: 980px)
+{
+    .slider
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.main-l{
+  width: 36%;
+  margin-left: 80px;
+  padding-top: 70px;
+}
+.hd{
+  font-size: 53px;
+  color: #333;
+}
+.hd2{
+  font-size: 64px;
+  font-weight: 900;
+  margin-top: -55px;
+  letter-spacing: 0.03em;
+  color: #222;
+}
+.content{
+  width: 94%;
+  margin-top: 35px;
+  color: gray;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btns{
+  margin-top: 80px;
+}
+.btns a{
+  background: #fff;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 35px;
+  padding-left: 45px;
+  letter-spacing: 0.1em;
+  box-shadow: 2px 1px 7px #000;
+  text-decoration: none;
+  background:  #292342
+}
+.btns a:hover
+{
+    background: #fff;
+    color: #747474;
+}
+
+.btns a i{
+  padding-left: 25px;
+}
+
+
+.main-r{
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+.r-t{
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.r-t img{
+  transform: scaleX(1);
+  width: 400px;
+  height: 450px;
+}
+.r-btns{
+  margin-left: 450px;
+  margin-top: -150px;
+}
+.r-btns i{
+  color: #747474;
+  font-size: 30px;
+}
+.r-b{
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
